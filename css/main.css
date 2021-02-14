@@ -17,24 +17,28 @@
 .colorAlertPrincipal{
     background-color:#a060912a;
     width: 23rem;
+    height: 6em;
 }
 main{
-    padding: 1em;
+    padding: 0.8em;
 }
 #fondo{
     background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
     background-repeat: no-repeat;
     background-image: repeating-radial-gradient(100%,100%); 
 }
-.centerMovil{
-    text-align:center;
-}
-.tituloPage{
-    text-align:center;
-}
-.textAlert{
-    text-align:center !important;
-}
+
+    .centerMovil{
+        text-align:center;
+    }
+    .tituloPage{
+        text-align:center;
+        font-size: 2em !important;
+    }
+    .textAlert{
+        text-align:center !important;
+        font-size:30em;
+    }
 
 @media(min-width: 720px) {
     main{
@@ -53,9 +57,16 @@ main{
     }
     .tituloPage{
     text-align: start;
+    font-size: 3em !important;
+    
     }
     .textAlert{
         text-align:left !important;
+    }
+    .colorAlertPrincipal{
+        background-color:#a060912a;
+        width: 23rem;
+        height: 3em;
     }
 }
 
