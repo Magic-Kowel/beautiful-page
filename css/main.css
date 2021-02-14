@@ -1,0 +1,62 @@
+:root{
+    --colorPrincipal: #511f50;
+}
+
+.bgColorPrincipal{
+    background-color: var(--colorPrincipal);
+}
+.textColorPrincipal{
+    color:  var(--colorPrincipal);
+}
+.cardSubTitulo{
+    color: #894379;
+}
+.cardImg{
+    max-width: 3rem;
+}
+.colorAlertPrincipal{
+    background-color:#a060912a;
+    width: 23rem;
+}
+main{
+    padding: 1em;
+}
+#fondo{
+    background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-image: repeating-radial-gradient(100%,100%); 
+}
+.centerMovil{
+    text-align:center;
+}
+.tituloPage{
+    text-align:center;
+}
+.textAlert{
+    text-align:center !important;
+}
+
+@media(min-width: 720px) {
+    main{
+        padding: 7em;
+    }
+    .container-xl {
+        min-width: 80%;
+    }
+    #fondo{
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-image: repeating-radial-gradient(100%,100%); 
+    }
+    .centerMovil{
+        text-align:justify;
+    }
+    .tituloPage{
+    text-align: start;
+    }
+    .textAlert{
+        text-align:left !important;
+    }
+}
+
+
