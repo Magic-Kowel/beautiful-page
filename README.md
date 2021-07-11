@@ -5,4 +5,4 @@
 ## Movil
 
 ![movil](./design/movil.PNG "movil")
-![movil](./design/movil2.PNG"movil")
+![movil2](./design/movil2.PNG"movil2")
