@@ -51,7 +51,7 @@ main{
     background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
     background-repeat: no-repeat;
     background-image: repeating-radial-gradient(100%,100%);
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-position: top,bottom;
     }
     .centerMovil{
